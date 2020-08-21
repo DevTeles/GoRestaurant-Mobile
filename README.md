@@ -1,7 +1,7 @@
 <h1>Resultado Final</h1>
 
 <h1 align="center">
-  APP - GoBarber
+  GoRestaurant
   <br /> <br />
   <img src="src/assets/GoRestaurant01.png" />
   <br /> <br />
@@ -10,16 +10,13 @@
 
 # `Indice`
 
-<a href="#React-Native">1. React-Native</a> <br />
+<a href="#Sobre-o-Desafio">1. Sobre o Desafio</a> <br />
 <a href="#Tecnologias-utilizadas">2. Tecnologias utilizadas</a> <br />
 <a href="#Como-baixar-o-projeto">3. Como baixar o projeto</a>
 
-## React-Native
+## Sobre o Desafio
 
-Esse é um aplicativo para quem tem uma barbearia, o app se chama `**GoBarber**`, ele terá a funcionalidade principal de fazer os agendamentos com seu barbeiro preferido, ou seja, controlar a sua agenda.
-
-É uma aplicação que se conectar com **backend**.
-https://github.com/DevTeles/backend-GoBarber
+Essa será uma aplicação que irá se conectar a uma fake API, e exibir os pratos de comida, categoria e permitir a realização de um pedido, podendo visualizar seus pratos favoritos e pedidos.
 ---
 
 ## Tecnologias utilizadas
@@ -29,16 +26,12 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - React-Native
 - Axios
 - TypeScript
-- Animated (Animação do react-native)
 - Styled-Components
 - History
 - Polished
 - ReactIcons
-- yup
 - react-navigation/native
-- date-fns
 - react-native-vector-icons
-
 ---
 ## Como baixar o projeto
 
@@ -46,16 +39,16 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ```bash
 
   # Clonar o repositório
-  $ git clone https://github.com/DevTeles/appGobarber-oficial.git
+  $ git clone https://github.com/DevTeles/GoRestaurant-Mobile.git
 
   # Entrar no diretório
-  $ cd appGoBarber-oficial
+  $ cd GoRestaurant-Mobile
 
   # Instalar as dependências
   $ yarn
 
-  # Start no pasta do projeto do backend
-  $ yarn dev:server
+  # Start na API FAKER
+  $ yarn json-server server.json -p 3333
 
   # Iniciar o projeto
   $ yarn start
