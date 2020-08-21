@@ -82,6 +82,8 @@ export const FoodList = styled.View`
 `;
 
 export const Food = styled.TouchableOpacity`
+  flex: 1;
+  height: 116px;
   display: flex;
   flex-direction: row;
   align-items: center;
